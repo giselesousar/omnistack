@@ -1,12 +1,12 @@
 .Logon-container{
     width: 100%;
-    max-width: 120%;
+    max-width: 1120px;
     height: 100vh;
     margin: 0 auto;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .Logon-container section.form{
@@ -24,21 +24,3 @@
     margin-bottom: 32px;
 }
 
-.Logon-container section.form form a {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    color: #41414d;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: opacity 0.2s;
-}
-
-.Logon-container section.form form a svg{
-    margin-right: 8px;
-}
-
-.Logon-container section.form form a:hover{
-    opacity: 0.8;
-}
